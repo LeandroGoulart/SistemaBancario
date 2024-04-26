@@ -1,10 +1,10 @@
 # Desenvolvido por Leandro Goulart
 import os
-from datetime import datetime  # Import the datetime module
+from datetime import datetime  # Importando modulo
 
 # Variáveis
 transacoes = []
-saldo_atual = 0  # Renomear para evitar conflito com a função saldo()
+saldo_atual = 0  
 limite = 500
 numero_saques = 0
 LIMITE_SAQUES = 3
