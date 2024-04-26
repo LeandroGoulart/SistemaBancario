@@ -51,10 +51,10 @@ def sacar():
 
 def extrato():
     limpar_terminal()  # Limpar a tela antes da operação
-    print("\n================ HISTÓRICO DE TRANSAÇÕES ================")
+    print("\n===================== HISTÓRICO DE TRANSAÇÕES =====================")
     for transacao in transacoes:
         print(transacao)
-    print("=========================================================")
+    print("===================================================================")
     print("Saldo atual: R$", "{:.2f}".format(saldo_atual))
 
 def saldo():
@@ -97,11 +97,11 @@ running = True
 while running:
     menu = """
 *************************
-* [d] Depositar
-* [s] Sacar
-* [e] Extrato
-* [r] Saldo
-* [q] Sair.
+#   [d] Depositar       #  
+#   [s] Sacar           #
+#   [e] Extrato         #
+#   [r] Saldo           #         
+#   [q] Sair.           #  
 *************************
 
 => """
